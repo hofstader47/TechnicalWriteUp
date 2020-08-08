@@ -17,8 +17,9 @@ The first step to solve this issue is to scale up the existing system. Scaling i
 # Error code faced by the client
 
 <center>
+  
 ![alt text](https://support.cloudflare.com/hc/article_attachments/115003660331/image1.png)
-``` Cannot serve request to /content/connect/c1//event_landing.html  ```
+
 </center>
 
 
