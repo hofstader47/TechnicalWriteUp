@@ -1,4 +1,4 @@
-# Overview 
+# Overview
 
 In this article I will share how we can possibly fix bottlenecks in our project infrastructure on the parameters of scaling and performance. As the result of our work, the project would be able to serve x of requests per second in y seconds.
 
@@ -16,30 +16,42 @@ The first step to solve this issue is to scale up the existing system. Scaling i
 
 # Error code faced by the client
 
+<center>
 ![alt text](https://support.cloudflare.com/hc/article_attachments/115003660331/image1.png)
+``` Cannot serve request to /content/connect/c1//event_landing.html  ```
+</center>
 
-There are two possible ways to perform scaling -
+
+# There are two possible ways to perform scaling :-
 
 <ol>
 <li>Horizontal Scaling</li>
+<br>
 <li>Vertical Scaling</li>
 
 </ol>
+<br>
+
+
 
 
 
 **Horizontal Scaling** refers to upgrading the number of our existing computing devices or servers present on the cloud which would possibly distribute the requests equally amongst the present servers. In the former case, the communication would take place largely because of network calls or remote procedures and would also eradicate the tendency of our server being a single point of failure.
+<center>
 
   ![alt text](https://www.codit.eu/wp-content/uploads/2016/02/horizontal-scaling_330x199.png)
+  </center>
 
 
 
 
-**Vertical Scaling**
+
 
 **Vertical Scaling** refers to upgrading the efficiency of our existing computing devices or servers present on the cloud. In a layman language, a computer with better modifications in terms of RAM, I/O response times. In the latter case, the communication would largely take place because of inter communication calls. Eventually, this would increase the response retrieval time as method calls and fetching of results would be faster.
+<center>
 
 ![alt text](https://miro.medium.com/max/990/1*kzBKXvnoQZx_Pn-pk5XyCw.jpeg)
+</center>
 
 
 **The single point of failure** in vertical scaling remains the unwanted feature which could be overcome by designing a hybrid scaling architecture where the systems on the vertical scaling could be scaled horizontally as well.
